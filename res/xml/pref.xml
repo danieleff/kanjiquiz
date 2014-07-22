@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+                android:title="Questions in the Kanji quiz">
+	    <CheckBoxPreference
+	            android:title="Kanji->Kana"
+	            android:defaultValue="true"
+	            android:summary="Include Kanji->Kana questions"
+	            android:key="word_trans1" />
+	    <CheckBoxPreference
+	            android:title="Kana->Kanji"
+	            android:defaultValue="true"
+	            android:summary="Include Kana->Kanji questions"
+	            android:key="trans1_word" />
+	    <CheckBoxPreference
+	            android:title="Kanji->English"
+	            android:defaultValue="true"
+	            android:summary="Include Kanji->English questions"
+	            android:key="word_trans2" />
+	    <CheckBoxPreference
+	            android:title="English->Kanji"
+	            android:defaultValue="true"
+	            android:summary="Include English->Kanji questions"
+	            android:key="trans2_word" />
+	    
+	    <CheckBoxPreference
+	            android:title="English->Kana"
+	            android:defaultValue="false"
+	            android:summary="Include English->Kana questions"
+	            android:key="trans1_trans2" />
+	    <CheckBoxPreference
+	            android:title="Kana->English"
+	            android:defaultValue="false"
+	            android:summary="Include Kana->English questions"
+	            android:key="trans2_trans1" />
+	</PreferenceCategory>
+    
+        <PreferenceCategory
+                android:title="Questions in the Hiragana/Katakana quiz">
+	    <CheckBoxPreference
+	            android:title="Kana->English"
+	            android:defaultValue="true"
+	            android:summary="Include Kana->English questions"
+	            android:key="word_trans1_kana" />
+	    <CheckBoxPreference
+	            android:title="English->Kana"
+	            android:defaultValue="true"
+	            android:summary="Include English->Kana questions"
+	            android:key="trans1_word_kana" />
+	</PreferenceCategory>
+    
+</PreferenceScreen>
